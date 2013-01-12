@@ -52,7 +52,8 @@ public class PowerWidget extends FrameLayout {
     private static final String BUTTONS_DEFAULT = PowerButton.BUTTON_WIFI
                              + BUTTON_DELIMITER + PowerButton.BUTTON_BLUETOOTH
                              + BUTTON_DELIMITER + PowerButton.BUTTON_GPS
-                             + BUTTON_DELIMITER + PowerButton.BUTTON_SOUND;
+                             + BUTTON_DELIMITER + PowerButton.BUTTON_SOUND
+			     + BUTTON_DELIMITER + PowerButton.BUTTON_FASTCHARGE;
 
     private static final FrameLayout.LayoutParams WIDGET_LAYOUT_PARAMS = new FrameLayout.LayoutParams(
                                         ViewGroup.LayoutParams.MATCH_PARENT, // width = match_parent
@@ -77,6 +78,7 @@ public class PowerWidget extends FrameLayout {
         sPossibleButtons.put(PowerButton.BUTTON_BLUETOOTH, BluetoothButton.class);
         sPossibleButtons.put(PowerButton.BUTTON_BRIGHTNESS, BrightnessButton.class);
         sPossibleButtons.put(PowerButton.BUTTON_SOUND, SoundButton.class);
+        sPossibleButtons.put(PowerButton.BUTTON_FASTCHARGE, FastChargeButton.class);
         sPossibleButtons.put(PowerButton.BUTTON_SYNC, SyncButton.class);
         sPossibleButtons.put(PowerButton.BUTTON_WIFIAP, WifiApButton.class);
         sPossibleButtons.put(PowerButton.BUTTON_SCREENTIMEOUT, ScreenTimeoutButton.class);
