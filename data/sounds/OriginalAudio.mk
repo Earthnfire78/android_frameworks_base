@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/newwavelabs/KzurbSonar.ogg:system/media/audio/notifications/KzurbSonar.ogg \
 	$(LOCAL_PATH)/newwavelabs/OnTheHunt.ogg:system/media/audio/notifications/OnTheHunt.ogg \
 	$(LOCAL_PATH)/newwavelabs/Voila.ogg:system/media/audio/notifications/Voila.ogg \
+	$(LOCAL_PATH)/notifications/Vega.ogg:system/media/audio/notifications/Vega.ogg \
 	$(LOCAL_PATH)/notifications/Beat_Box_Android.ogg:system/media/audio/notifications/Beat_Box_Android.ogg \
 	$(LOCAL_PATH)/notifications/Heaven.ogg:system/media/audio/notifications/Heaven.ogg \
 	$(LOCAL_PATH)/notifications/TaDa.ogg:system/media/audio/notifications/TaDa.ogg \
@@ -67,4 +68,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
 	$(LOCAL_PATH)/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
 	$(LOCAL_PATH)/newwavelabs/CrazyDream.ogg:system/media/audio/ringtones/CrazyDream.ogg \
-	$(LOCAL_PATH)/newwavelabs/DreamTheme.ogg:system/media/audio/ringtones/DreamTheme.ogg
+	$(LOCAL_PATH)/newwavelabs/DreamTheme.ogg:system/media/audio/ringtones/DreamTheme.ogg \
+	$(LOCAL_PATH)/newwavelabs/Terminator.ogg:system/media/audio/ringtones/Terminator.ogg \
+	$(LOCAL_PATH)/newwavelabs/Darling.ogg:system/media/audio/ringtones/Darling.ogg \
+	$(LOCAL_PATH)/newwavelabs/Mario.ogg:system/media/audio/ringtones/Mario.ogg \
+	$(LOCAL_PATH)/newwavelabs/Tetris.ogg:system/media/audio/ringtones/Tetris.ogg \
+	$(LOCAL_PATH)/newwavelabs/Pokemon.ogg:system/media/audio/ringtones/Pokemon.ogg \
+	$(LOCAL_PATH)/newwavelabs/Zelda.ogg:system/media/audio/ringtones/Zelda.ogg \
+
+
